@@ -1,0 +1,294 @@
+/* --------------------------------- */
+/* -----------------Default setup-------------- */
+/* ----------------------------------------------- */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------ */
+/* ------------------Header--------------- */
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(45deg, rgba(211, 211, 211, 0.8), 55%, rgba(173, 173, 171, 0.8) ), url(https://scontent.fhan3-1.fna.fbcdn.net/v/t31.18172-8/30051630_1330289167071409_5851037306288611598_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=19026a&_nc_ohc=wOQ1TZOB8icAX_VJYzy&_nc_ht=scontent.fhan3-1.fna&oh=00_AT_MDlnf0a6c8Q7n0dRbXbA9VgnhIdJRMVoTPGW94YMc7w&oe=62E9413C);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding: 0 20px;
+    font-size: 120%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #000000;
+    transition:all .3s;
+}
+
+.nav-bar {
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    background-color: #d1cece;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.nav-bar a:hover, .nav-bar a:active{
+    color: white;
+}
+
+.heading-main-box h1{
+    text-transform: uppercase;
+    padding-top: 500px;
+    text-align: center;
+    font-style: italic;
+    font-size: 250%;
+    font-weight: 100;
+}
+
+/* ------------------------------------------------ */
+/* ---------------------About me-------------------- */
+/* ------------------------------------------------------ */
+
+.about-me{
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.about-me h2{
+    margin-left: 45%;
+    font-size: 200%;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.about-me .quote{
+    margin-left: 47%;
+    font-style: italic;
+    font-weight: 40;
+    opacity: .6;
+}
+
+.about-me p{
+    padding: 10px ;
+}
+
+.p-long{
+    display: block;
+    font-size: 80%;
+    font-weight: 50;
+    margin: 0px 400px;
+    line-height: 2;
+}
+
+/* ---------------------------------------------------- */
+/* -----------------------CV page------------------------- */
+/* ----------------------------------------------------------- */
+
+.my-name-img img{
+    max-width: 400px;
+    height: auto;
+    opacity: 0.5;
+    border-radius: 4px;
+
+}
+
+.my-name-img h1{
+    font-size: 90%;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
+.my-name-img{
+    margin-top: 20px;
+    margin-left: 410px;
+    display: inline-block;
+}
+
+.my-name-img img:hover,
+.my-name-img img:active{
+    opacity: 1;
+}
+
+.my-name-img aside{
+    margin-top: -400px;
+    float: right;
+    padding-right: 400px;
+    padding-left: 500px;
+    font-size: 80%;
+    font-weight: 50;
+    line-height: 2;
+}
+
+.social-icon{
+    margin-right: 800px;
+    margin-top: -70px;
+}
+
+.social-icon ul li{
+    display: inline-block;
+    float: right;
+    padding:0 20px;
+
+}
+
+.social-icon ul li a {
+    color: greenyellow;
+    font-size: 300%;
+    text-decoration: none;
+
+}
+
+/* ---------------------------------------------------- */
+/* -----------------------CV page(Education)------------------------- */
+/* ----------------------------------------------------------- */
+
+.list-education h1{
+    text-transform: uppercase;
+    font-size: 150%;
+    margin-left: -120px;
+}
+
+.list-education{
+    margin-top: 40px;
+}
+
+.list-education li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.advantage ul li span{
+    display:block;
+    width: 10%;
+    height: 35px;  
+    position: relative;
+    background: rgb(153, 150, 150);
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 80%;
+    color:aliceblue;
+    margin-top: 20px;
+}
+
+.advantage h1{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 50;
+    opacity: .8;
+    font-size: 100%;
+    font-style: italic;
+}
+
+
+.advantage ul {
+    margin-left: 410px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.advantage ul li{
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    font-size: 80%;
+} 
+
+.advantage #Math{
+    width: 1000px;
+}
+.advantage #Programming{
+    width: 800px;
+}
+.advantage #Photograph{
+    width: 650px;
+}
+
+
+/* ------------------------------------------------------- */
+/* -------------------------Hobbies---------------------------- */
+/* --------------------------------------------------------------- */
+
+
+
+.hobby {
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    height:50vh;
+    background-image:  linear-gradient(45deg, rgba(211, 211, 211, 0.8), 55%, rgba(173, 173, 171, 0.8) ), url(https://i.pinimg.com/564x/ec/03/5b/ec035bdd8e53a78275f466ccafcdd032.jpg);
+}
+
+.hobby h1{
+    text-align: center;
+    padding-top: 250px;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.row{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.basket-img img{
+    border-radius: 10px;
+    opacity: .5;
+    transition: all .3s;
+    position: relative;
+}
+
+.middle-text{
+    position: relative;
+    margin-top: -220px;
+    margin-left: 105px;
+    opacity: 1;
+}
+
+.text-in-pic{
+    font-size: 200%;
+    color: aliceblue;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.basket-img img:hover,
+.basket-img img:active{
+    opacity: 1;
+}
+
+
+
+.col.span-1-of-4:hover  .text-in-pic{
+    opacity: 1;
+}
